@@ -1,0 +1,90 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    background-color: rgba(27, 27, 27, 0.801);
+    border: none;
+    display: flex;
+    width: 60vw;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font: bold 70px arial;
+    color: white;
+    text-shadow: #000 2px 2px 0.2rem;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.content{
+    background-color: antiquewhite;
+    width: 60vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: green;
+    font:
+    bold 50px arial;
+    padding: 5px;
+}
+.mensagem{
+    text-align: justify;
+    width: 50em;
+    font: 20px  arial;
+
+}
+.checklist{
+    padding: 50px;
+}
+.pontilhado{
+    border: 5px dashed black ;
+    width: 50vw;
+    padding: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.agendamento_data{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+.dia{
+    text-align: center;
+    color: green;
+    font: bolder 90px arial;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
+.mes{
+    font: 40px arial;
+    padding: 10px;
+
+}
+.hora{
+    font: 30px arial;
+    padding: 10px;
+
+}
+.agendamento_dados{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 20px;
+}
+label{
+    color: green;
+    font: normal 25px arial;
+}
+p, a{
+    font: normal 30px arial;
+
+}

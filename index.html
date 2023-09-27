@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="index.css">
+    <title>Aviso de agendamento</title>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        Logo CPRAC
+    </div>  
+</header>
+    <div class="container">
+
+        <div class="content">
+
+            <h1>Confirmação de Agendamento</h1>
+            <div class="mensagem">
+                <p>Olá, {{$nome}}</p>
+
+                <p>Seu agendamento para o serviço de {{ $assunto }} foi realidado com sucesso. Pedimos que venha portando
+                todos os documentos necessários para a instauração do procedimento.</p>
+
+            </div>
+
+            <div class="checklist">
+                <a href=""> Clique aqui para ir para o checklist de documentos </a>
+            </div>
+            
+            <div class="pontilhado">
+
+                <div class="agendamento_data">
+
+                    <div class="dia">23<!--{{date('d',strtotime($data_agendamento))}}--></div>
+
+                    <div class="mes">AGOSTO/23<!--{{date('F/d',strtotime($data_agendamento))}}--></div>
+
+                    <div class="hora">8:30<!--{{date('H:i',strtotime($data_agendamento))}}--></div>
+
+                </div>
+
+                <div class="agendamento_dados">
+
+                    <div>
+
+                        <label>Nome</label>
+
+                        <p>{{ $nome_completo }}</p>
+
+                    </div>
+
+                    <div>
+
+                        <label>Email</label>
+
+                        <p>{{ $email }}</p>
+
+                    </div>
+
+                    <div>
+
+                        <label>Tipo de Atendimento</label>
+
+                        <p>{{ $tipo_atendimento }}</p>
+
+                    </div>
+
+                    <div>
+
+                        <label>Assunto</div>
+
+                    <p>{{ $assunto }}</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+    tem menu de contexto
+    Redigir
+
+</body>
+<footer>
+    
+</footer>
+<picture class="ndtic">
+    <img src="./src/img/Logo1.png" alt="logo NDTIC" >
+</picture>
+</html>
