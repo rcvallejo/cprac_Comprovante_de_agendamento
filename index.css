@@ -30,7 +30,7 @@ header{
 h1{
     color: green;
     font:
-    bold 50px arial;
+    bold 30px arial;
     padding: 5px;
 }
 .mensagem{
@@ -87,4 +87,37 @@ label{
 p, a{
     font: normal 30px arial;
 
+}
+
+.aviso{
+    background-color: red;
+    display: flex;
+    width: 60vw;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: none;
+}
+
+h2{
+    font: bold 25px arial;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+h3{
+    font: bold 30px arial;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    font: normal 18px arial;
 }
