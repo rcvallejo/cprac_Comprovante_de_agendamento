@@ -20,7 +20,6 @@ header{
     align-items: center;
 }
 .content{
-    background-color: antiquewhite;
     width: 60vw;
     display: flex;
     flex-flow: column nowrap;
@@ -120,4 +119,14 @@ ul{
     list-style-type: none;
     padding-left: 0px;
     font: normal 18px arial;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.logoNdtic{
+    width: 260px;
+    height: 220px;
 }
